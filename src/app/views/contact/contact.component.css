@@ -1,0 +1,58 @@
+.contact-container {
+  min-height: 85vh;
+}
+
+mat-card {
+  padding: 50px;
+  margin: 3rem auto;
+  height: auto;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0, .2) !important;
+}
+
+mat-card-title {
+  color: #283593;
+}
+
+mat-card-header {
+  text-align: center;
+}
+
+mat-card-content {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+mat-form-field {
+  margin: 0 auto;
+  width: 80%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  height: 2.5rem;
+}
+
+textarea {
+  resize: none !important;
+}

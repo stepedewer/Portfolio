@@ -1,0 +1,142 @@
+.skill-container {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  width: 60%;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.language-title {
+  color: #3254c9;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.languages {
+  flex: 1;
+  display: flex;
+  justify-content: stretch;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.language {
+  padding: 20px;
+  margin: 5px;
+  flex: 1 0 26.66%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  line-height: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.language img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.language:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0, .2);
+}
+
+.progress {
+  width: 100%;
+}
+
+.backgrounds {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.background {
+  padding: 20px;
+  margin: 5px;
+  flex: 1 0 26.66%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.background img {
+  height: 90px;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.background:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0, .2);
+}
+
+.stacks-container {
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.stacks {
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 1 auto;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.stacks img {
+  margin: 0 auto;
+  height: 100px;
+  width: 150;
+}
+
+.stacks:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0, .2);
+}
+
+
+.name {
+  font-weight: bold;
+  margin-bottom: -4px;
+}
+
+.hover-container {
+  display: inline-block;
+  border: 1px solid #e5e5e5;
+  color: #272727;
+  font-weight: 400;
+  font-size: 1.2rem;
+  width: 95%;
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+}
+
+.popover-header {
+  color: #283593;
+  background-color: white;
+}

@@ -1,0 +1,25 @@
+<div class="language-title">
+  <h1>{{'Languages - Tools' | uppercase}}</h1>
+  <hr>
+</div>
+<div class="skill-container">
+  <div class="languages">
+    <div class="language" [ngbPopover]="language.level" triggers="mouseenter:mouseleave" [popoverTitle]="language.name"
+      popoverClass="hover-container" *ngFor="let language of languages">
+      <img [src]="language.icon">
+    </div>
+  </div>
+  <div class="backgrounds">
+    <div class="background" [ngbPopover]="background.level" triggers="mouseenter:mouseleave"
+      [popoverTitle]="background.name" popoverClass="hover-container" *ngFor="let background of dataBase">
+      <img [src]="background.icon">
+    </div>
+  </div>
+</div>
+<div class="stacks-container">
+  <div class="stacks" [ngbPopover]="stack.level" triggers="mouseenter:mouseleave" [popoverTitle]="stack.name"
+    popoverClass="hover-container" *ngFor="let stack of stacks">
+    <img [src]="stack.icon">
+  </div>
+</div>
+<hr>

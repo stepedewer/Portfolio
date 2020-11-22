@@ -1,0 +1,25 @@
+.exp-container {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  margin-bottom: 8vh;
+}
+
+.exp-item {
+  padding: 5px;
+  margin: 5px;
+}
+
+.exp-item h5 {
+  color: #3254c9;
+}
+
+.exp-item p {
+  text-align: justify;
+  text-justify: inter-word;
+}

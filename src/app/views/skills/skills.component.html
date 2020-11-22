@@ -1,0 +1,33 @@
+<div class="banner-container">
+  <div class="info-container">
+    <div class="info-items">
+      <h1>Christian Alfonso Gonzales</h1>
+    </div>
+    <div class="info-items">
+      <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+        specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining
+        essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+        Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+        Lorem Ipsum</p>
+    </div>
+  </div>
+</div>
+
+<div class="skills-router-buttons">
+  <ul class="nav nav-pills nav-fill">
+    <li class="nav-item">
+      <a class="nav-link" role="button" routerLinkActive="actives" routerLink="programming">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" role="button" routerLinkActive="actives" routerLink="experience">Experience</a>
+    </li>
+  </ul>
+</div>
+
+<div class="main-container">
+  <main [@routeAnimations]="prepareRoute(outlet)">
+    <router-outlet #outlet="outlet"></router-outlet>
+  </main>
+</div>
